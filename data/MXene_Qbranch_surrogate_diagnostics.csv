@@ -1,5 +1,0 @@
-Quantity,Value
-"Baseline loss F(u*) (SSE, complex)",370.5800072174324
-Min Hessian eigenvalue,296.67279293607646
-Max Hessian eigenvalue,18841893.78538018
-FD step h (u-space),0.05
