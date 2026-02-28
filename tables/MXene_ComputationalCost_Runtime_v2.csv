@@ -1,0 +1,4 @@
+Method,Algorithm,Wall-time (s),Objective evals,Avg time / eval (s),Shots,Key scaling,Notes,Breakdown
+Classical NLLS,SciPy least_squares (TRF),0.0139120839999691,6,0.002318680666661521,—,≈O(N_freq) per eval; convergence-dependent nfev,Deterministic baseline; direct complex residual fit,—
+VQE/VQA (continuous),"COBYLA (bounded u∈[0,1]^7)",0.0100197649999813,53,0.0001890521698109691,4096,Hardware: O(shots·depth) per eval; here classical model O(N_freq),Continuous search; no discretization; optimizer settings affect nfev,—
+QAOA (discrete),p=1 + γ–β grid (25+81) + best-shot decode,269.58927698999923,99 (surrogate) + 106 (angles),2.432 (per ⟨H⟩ eval),4096,Angle-search ∝ #evals; qubits=7×bits; Δ sets local window,"Δ=0.08; γ*=2.8667, β*=0.6676; reference implementation",Surrogate FD + energy precompute + 106×⟨H⟩ eval + sampling

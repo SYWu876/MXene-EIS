@@ -1,0 +1,4 @@
+Method,SSE (true),QAOA_candidate_pool_K,QAOA_best_state_index
+Classical,370.580007217435,,
+VQE/VQA (cont.),370.6163405870806,,
+QAOA (disc.),57481.953490605614,800.0,2096668.0

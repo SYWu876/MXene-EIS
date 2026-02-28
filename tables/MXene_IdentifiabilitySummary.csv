@@ -1,0 +1,8 @@
+Parameter,Space (u mapping),Curvature proxy κ_i = 0.5|H_ii|Δ^2 (Δ=0.08),Curvature rank (high=stiff),CV% at 2% noise,CV rank (low=stable),Dominant correlation partner,Dominant Pearson r (2% noise),Identifiability
+R_s,log,14.064299096304964,6,3.4015458219922703,7,α_2,-0.8539292199407047,Poorly-identifiable
+L,log,0.9494412002161697,7,2.7852757966261836,6,R_s,0.6307607558680784,Poorly-identifiable
+R_ct,log,612.6370998366286,3,1.1172801468394644,4,L,0.6251362058491771,Well-identifiable
+Q_1,log,109.03898399145741,4,2.1093642569760136,5,α_1,-0.4056658136099631,Well-identifiable
+α_1,linear,45.75521220149552,5,0.5488015257122418,3,R_s,0.6330120459857498,Poorly-identifiable
+Q_2,log,58427.38213615459,1,0.3852936051593752,2,L,-0.5394499693644871,Well-identifiable
+α_2,linear,5053.1688784633325,2,0.1119966968920331,1,R_s,-0.8539292199407047,Poorly-identifiable
