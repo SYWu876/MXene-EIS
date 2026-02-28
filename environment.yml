@@ -1,0 +1,12 @@
+name: mxene-eis-nanoenergy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - python-docx
+  - reportlab
+  - pip

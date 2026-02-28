@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MXene EIS Analysis (Nano Energy) — Reproducibility Package"
+type: software
+authors:
+  - family-names: Wu
+    given-names: Sheng-Yun
+    name: "Sheng-Yun Wu"
+version: "v1.0.0"
+date-released: "2026-02-24"
+license: MIT
+repository-code: "https://github.com/<YOUR_GITHUB_ORG_OR_USER>/mxene-eis-nanoenergy"
+keywords:
+  - electrochemical impedance spectroscopy
+  - EIS
+  - MXene
+  - equivalent circuit
+  - quantum optimization
+  - QAOA
+  - variational algorithms
+abstract: >
+  Reproducibility package for MXene electrochemical impedance spectroscopy (EIS) analysis
+  using classical nonlinear least squares and quantum-inspired/quantum optimization branches
+  (VQE/VQA continuous decoding and QAOA discrete QUBO/Ising mapping), including all figures,
+  tables, and processed datasets used in the associated Nano Energy manuscript.
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Wu
+      given-names: Sheng-Yun
+      name: "Sheng-Yun Wu"
+  title: "MXene EIS Analysis (Nano Energy) — Reproducibility Package"
+  version: "v1.0.0"
+  date-released: "2026-02-24"
+  url: "https://doi.org/<ZENODO_DOI_PLACEHOLDER>"
