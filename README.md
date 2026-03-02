@@ -1,4 +1,4 @@
-# MXene EIS Analysis (Nano Energy) — Reproducibility Package
+# MXene EIS Analysis — Reproducibility Package
 
 This repository is a **ready-to-upload** GitHub/Zenodo structure to reproduce the MXene EIS fitting
 and quantum-branch artifacts (QAOA/VQE–VQA) used in the manuscript.
